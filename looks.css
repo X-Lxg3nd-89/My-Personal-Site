@@ -16,7 +16,6 @@ body {
   font-weight: 600;
 }
 
-/* Decorative circles */
 body::before,
 body::after {
   content: "";
@@ -79,7 +78,6 @@ body::after {
   right: 10%;
 }
 
-/* Typography */
 h1 { color: #7c3aed; font-weight: 800; font-size: 2rem; margin-bottom: 8px; }
 h2 { color: #7c3aed; font-weight: 800; font-size: 1.5rem; margin-top: 50px; margin-bottom: 15px; }
 h3 { font-weight: 800; margin-bottom: 6px; }
@@ -116,7 +114,6 @@ a:hover { text-decoration: underline; }
   margin-top: 10px;
 }
 
-/* Buttons */
 .btn {
   display: inline-block;
   padding: 10px 22px;
@@ -150,7 +147,6 @@ a:hover { text-decoration: underline; }
   text-decoration: none;
 }
 
-/* Highlight (milestone) */
 .highlight {
   background: #fff;
   border: 1px solid #ddd;
@@ -181,7 +177,6 @@ a:hover { text-decoration: underline; }
   margin-bottom: 0;
 }
 
-/* Skills */
 .skills {
   display: flex;
   flex-wrap: wrap;
@@ -202,7 +197,6 @@ a:hover { text-decoration: underline; }
   border-color: #7c3aed;
 }
 
-/* Projects */
 .project {
   border: 1px solid #ddd;
   padding: 20px;
@@ -235,7 +229,6 @@ a:hover { text-decoration: underline; }
   font-weight: 700;
 }
 
-/* Contact */
 .contact-line {
   margin-bottom: 6px;
 }
