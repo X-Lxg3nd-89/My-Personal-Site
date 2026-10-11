@@ -2,7 +2,7 @@
 
 Welcome! This is my personal site made with lightweight plain HTML and CSS.
 
-![alt text](image.png)
+![alt text](image-1.png)
 
 # Sections
 
