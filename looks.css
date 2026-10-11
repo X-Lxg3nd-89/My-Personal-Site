@@ -3,7 +3,6 @@
   margin: 0;
   padding: 0;
 }
-
 body {
   background: #ffffff;
   color: #1a1a1a;
@@ -15,7 +14,6 @@ body {
   overflow-x: hidden;
   font-weight: 600;
 }
-
 body::before,
 body::after {
   content: "";
@@ -23,7 +21,6 @@ body::after {
   border-radius: 50%;
   z-index: -1;
 }
-
 body::before {
   width: 300px;
   height: 300px;
@@ -31,7 +28,6 @@ body::before {
   top: -80px;
   left: -80px;
 }
-
 body::after {
   width: 400px;
   height: 400px;
@@ -39,13 +35,11 @@ body::after {
   bottom: -120px;
   right: -120px;
 }
-
 .circle {
   position: fixed;
   border-radius: 50%;
   z-index: -1;
 }
-
 .circle-1 {
   width: 180px;
   height: 180px;
@@ -53,7 +47,6 @@ body::after {
   top: 30%;
   left: -70px;
 }
-
 .circle-2 {
   width: 120px;
   height: 120px;
@@ -61,7 +54,6 @@ body::after {
   top: 15%;
   right: -40px;
 }
-
 .circle-3 {
   width: 220px;
   height: 220px;
@@ -69,7 +61,6 @@ body::after {
   bottom: 15%;
   left: -90px;
 }
-
 .circle-4 {
   width: 90px;
   height: 90px;
@@ -92,7 +83,6 @@ a:hover { text-decoration: underline; }
   margin-left: auto;
   margin-right: auto;
 }
-
 .badge {
   display: inline-block;
   background: #ede9fe;
@@ -103,16 +93,13 @@ a:hover { text-decoration: underline; }
   border-radius: 999px;
   margin-bottom: 14px;
 }
-
 .tagline {
   max-width: 520px;
   margin: 0 auto 20px;
 }
-
 .buttons {
   margin-top: 10px;
 }
-
 .btn {
   display: inline-block;
   padding: 10px 22px;
@@ -123,29 +110,24 @@ a:hover { text-decoration: underline; }
   text-decoration: none;
   transition: background 0.2s ease, border-color 0.2s ease, color 0.2s ease;
 }
-
 .btn-primary {
   background: #7c3aed;
   color: #fff;
 }
-
 .btn-primary:hover {
   background: #5b21b6;
   text-decoration: none;
 }
-
 .btn-outline {
   background: transparent;
   border: 1px solid #7c3aed;
   color: #7c3aed;
 }
-
 .btn-outline:hover {
   background: #7c3aed;
   color: #fff;
   text-decoration: none;
 }
-
 .highlight {
   background: #fff;
   border: 1px solid #ddd;
@@ -154,7 +136,6 @@ a:hover { text-decoration: underline; }
   padding: 22px;
   text-align: left;
 }
-
 .highlight-year {
   font-size: 12px;
   color: #7c3aed;
@@ -163,26 +144,21 @@ a:hover { text-decoration: underline; }
   letter-spacing: 0.5px;
   margin-bottom: 6px;
 }
-
 .highlight ul {
   margin: 10px 0 14px 20px;
 }
-
 .highlight li {
   margin-bottom: 4px;
 }
-
 .highlight p:last-child {
   margin-bottom: 0;
 }
-
 .skills {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 10px;
 }
-
 .skill {
   background: #fff;
   border: 1px solid #ddd;
@@ -191,11 +167,9 @@ a:hover { text-decoration: underline; }
   font-size: 14px;
   transition: border-color 0.2s ease;
 }
-
 .skill:hover {
   border-color: #7c3aed;
 }
-
 .project {
   border: 1px solid #ddd;
   padding: 20px;
@@ -206,16 +180,13 @@ a:hover { text-decoration: underline; }
   border-radius: 8px;
   transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
-
 .project:hover {
   border-color: #7c3aed;
   box-shadow: 0 0 0 3px #ede9fe;
 }
-
 .tags {
   margin-top: 10px;
 }
-
 .tag {
   display: inline-block;
   font-size: 12px;
@@ -227,11 +198,9 @@ a:hover { text-decoration: underline; }
   margin-top: 4px;
   font-weight: 700;
 }
-
 .contact-line {
   margin-bottom: 6px;
 }
-
 .contact-line strong {
   color: #7c3aed;
   margin-right: 6px;
